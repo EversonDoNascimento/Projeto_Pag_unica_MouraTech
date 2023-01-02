@@ -1,0 +1,44 @@
+@media (max-width: 480px) {
+  html {
+    font-size: 30%;
+    text-align: center;
+  }
+
+  .article2 img {
+    margin: 4rem 0px;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 769px) {
+  html {
+    font-size: 90%;
+  }
+  .conteudo {
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .conteudo h1 {
+    text-align: center;
+  }
+  .conteudo p {
+    margin: 0px 5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 100%;
+  }
+
+  .conteudo {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1201px) {
+  html {
+    font-size: 125%;
+  }
+} ;
