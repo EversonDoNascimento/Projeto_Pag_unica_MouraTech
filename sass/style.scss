@@ -108,4 +108,11 @@ a {
   background-color: black;
 }
 
+#btn-mobile {
+  display: none;
+}
+
+.active button {
+  background-color: pink;
+}
 @import "mediaQueries.scss";

@@ -13,18 +13,23 @@
     <title>Projeto Moura Tech</title>
   </head>
   <body>
-    <header>
+    <header class="flex-layout">
+      <section class="logo-image">
+        <img
+          src="./images/logo.png"
+          alt="Logo Html, Css e Javascript"
+          width="80"
+        />
+      </section>
       <nav>
-        <section title="nav-bar" class="flex-layout">
-          <section class="logo-image">
-            <img
-              src="./images/logo.png"
-              alt="Logo Html, Css e Javascript"
-              width="80"
-            />
-          </section>
+        <section title="nav-bar">
           <section title="Opções">
-            <ul>
+            <img
+              style="color: white; width: 2rem"
+              src="./images/menu-bar.svg"
+              id="btn-mobile"
+            />
+            <ul id="menu">
               <li><a href="#html">HTML</a></li>
               <li><a href="#css">CSS</a></li>
               <li><a href="#js">JAVASCRIPT</a></li>
@@ -105,5 +110,6 @@
     <footer class="rodape">
       <section>Moura Tech © <b>Todos os direitos Reservados</b></section>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
